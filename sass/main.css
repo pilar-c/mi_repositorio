@@ -1,0 +1,63 @@
+h1 {
+  font-family: 'Pacifico', cursive;
+}
+
+li a:hover {
+  background-color: #63bacf;
+  opacity: 80%;
+}
+
+.text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  float: left;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 20px;
+  padding: 5px;
+  border: 8px;
+  padding: 5px;
+}
+
+.sr-only {
+  color: black;
+}
+
+.nav-link:hover {
+  background-color: #63bacf;
+}
+
+.col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.formulario {
+  width: auto;
+  height: auto;
+  margin: 50px;
+  padding: 10px;
+  border: 4px;
+  padding: 5px;
+}
+
+h1 {
+  border: 5px;
+  margin: 2px;
+}
+/*# sourceMappingURL=main.css.map */
