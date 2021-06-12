@@ -1,3 +1,10 @@
+
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/utilities";
+@import "footer";
+
+
 h1 { font-family: 'Pacifico', cursive;}
 
 li a:hover {
@@ -42,12 +49,6 @@ h1 {
     margin: 2px;
 }
 
-
-
-@import "bootstrap/scss/functions";
-@import "bootstrap/scss/variables";
-@import "bootstrap/scss/utilities";
-
 $utilities: map-merge(
   $utilities,
   (
@@ -59,3 +60,5 @@ $utilities: map-merge(
     )
   )
 )
+
+
