@@ -61,3 +61,7 @@ h1 {
   margin: 2px;
 }
 /*# sourceMappingURL=main.css.map */
+.card {
+  display: flex;
+  float: left ;
+}
