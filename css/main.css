@@ -36,8 +36,8 @@ li a:hover {
   padding: 5px; }
 
 h1 {
-  border: 5px;
-  margin: 2px; }
+  border: 15px;
+  margin: 20px; }
 
   footer {
     background-color: #e1eef7;
@@ -51,5 +51,4 @@ h1 {
     text-align: center; }
   
   .card {
-    display: flex;
-    float: left ;  }
+    justify-content: space-around; }
