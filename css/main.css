@@ -1,3 +1,8 @@
+header {
+  position: relative;
+  padding:5px;
+}
+
 h1 {
   font-family: 'Pacifico', cursive; }
 
@@ -40,15 +45,31 @@ h1 {
   margin: 20px; }
 
   footer {
+    position: static;
     background-color: #e1eef7;
     width: 100%;
     height: 100px;
-    padding: 50px 0 0 0; }
+    padding: 25px 0 0 0;
+    background-color: #e1eef7; 
+  }
   
-  footer h5 {
-    font-size: 2rem;
-    font-weight: 900;
-    text-align: center; }
   
-  .card {
-    justify-content: space-around; }
+ .card {
+    width: auto;
+    height: auto;
+    margin: 40px;
+    padding: 10px;
+    border: 2px; 
+    padding: 2px;
+    align-items: center;
+    display: flex;
+    }
+
+    .col {
+      margin: 40px;
+      padding: 10px;
+      border: 2px; 
+      padding: 2px;
+      align-items: center;
+      display: flex;
+    }

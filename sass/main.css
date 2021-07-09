@@ -1,5 +1,7 @@
 h1 {
   font-family: 'Pacifico', cursive;
+  border: 15px;
+  margin: 20px;
 }
 
 li a:hover {
@@ -56,10 +58,7 @@ li a:hover {
   padding: 5px;
 }
 
-h1 {
-  border: 5px;
-  margin: 2px;
-}
+
 /*# sourceMappingURL=main.css.map */
 .card {
   display: flex;

@@ -4,8 +4,17 @@
 @import "bootstrap/scss/utilities";
 @import "footer";
 
+header {
+  position: static;
+  padding:5px;
+}
 
 h1 { font-family: 'Pacifico', cursive;}
+
+h1 {
+  border: 15px;
+  margin: 20px;
+}
 
 li a:hover {
     background-color: #63bacf;
@@ -44,9 +53,14 @@ li a:hover {
     padding: 5px;
 }
 
-h1 {
-    border: 15px;
-    margin: 20px;
+.card {
+  width: auto;
+  height: auto;
+  margin: 50px;
+  padding: 10px;
+  border: 4px; 
+  padding: 5px;
+  align-items: center;
 }
 
 $utilities: map-merge(
@@ -61,4 +75,5 @@ $utilities: map-merge(
   )
 )
 
+$card-height: 100%
 
