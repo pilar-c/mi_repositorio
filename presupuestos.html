@@ -59,39 +59,74 @@
           <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Apellido">
         </div>
       <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <label for="exampleFormControlInput1" class="form-label">Correo electronico</label>
         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
       </div>
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Que te interesa llevar?</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      
+      <h4 class="mb-3">Pago</h4>
+
+      <div class="my-3">
+        <div class="form-check">
+          <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
+          <label class="form-check-label" for="credit">Tarjeta de crédito</label>
+        </div>
+        <div class="form-check">
+          <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
+          <label class="form-check-label" for="debit">Tarjeta de debito</label>
+        </div>
+        <div class="form-check">
+          <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
+          <label class="form-check-label" for="paypal">Mercado Pago</label>
+        </div>
       </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-        <label class="form-check-label" for="flexRadioDefault2">
-          Mayorista
-        </label>
+
+      <div class="row gy-3">
+        <div class="col-md-6">
+          <label for="cc-name" class="form-label">Nombre en la tarjeta</label>
+          <input type="text" class="form-control" id="cc-name" placeholder="" required>
+          <small class="text-muted">Nombre completo tal como aparece en la tarjeta</small>
+          <div class="invalid-feedback">
+            Ingrese el nombre tal como aparece en la tarjeta 
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <label for="cc-number" class="form-label">Número de la tarjeta</label>
+          <input type="text" class="form-control" id="cc-number" placeholder="" required>
+          <div class="invalid-feedback">
+            Ingrese número de la tarjeta 
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <label for="cc-expiration" class="form-label">Fecha de expiración </label>
+          <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
+          <div class="invalid-feedback">
+            Ingrese fecha de expiración 
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <label for="cc-cvv" class="form-label">CVV</label>
+          <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
+          <div class="invalid-feedback">
+            Ingrese código
+          </div>
+        </div>
       </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-        <label class="form-check-label" for="flexRadioDefault1">
-          Minorista
-        </label>
-      </div>
+<br>
       <div class="col-12">
         <button type="submit" class="btn btn-primary">Enviar</button>
         <button type="reset" class="btn btn-primary">Borrar</button>
       </div>
     </form>
-      
   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>    
 
     <footer>
-      <div class="footer-copyright text-center py-3">© 2021 Copyright: Ma. del Pilar Castillo -
-      <img src="imagenes/whatsapp.svg" alt="">11 2345 6789
+      <div class="footer-copyright text-center py-3"> Ma. del Pilar Castillo - 11 XXXX XXXX
       </div>
-  </footer>
+    </footer>
 
   </body>
 </html>
